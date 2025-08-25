@@ -56,7 +56,7 @@ def copy_to_clipboard(text):
 def main():
     os.system("cls" if os.name == "nt" else "clear")
     animated_text(" Slink - Link Kısaltıcı ", 0.05)
-    print("📌 Instagram: soytariomer.17\n")
+    print(" Instagram: soytariomer.17\n")
 
     long_url = input("🔹 Kısaltmak istediğiniz linki girin: ")
     short_url = make_tiny(long_url)
