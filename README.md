@@ -25,13 +25,17 @@ Kurulum:
 Installation:
 
 
-Linux: git clone https://github.com/JASEY507/S-Link- && cd S-Link- && python3 -m venv venv && source venv/bin/activate && pip install requests pyperclip && python S-Link.py
+Linux: 
+
+git clone https://github.com/JASEY507/S-Link- && cd S-Link- && python3 -m venv venv && source venv/bin/activate && pip install requests pyperclip && python S-Link.py
 -
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 
-Termux: git clone https://github.com/JASEY507/S-Link- && cd S-Link- && python3 -m venv venv && . venv/bin/activate && pip install requests pyperclip && python S-Link.py
+Termux: 
+
+git clone https://github.com/JASEY507/S-Link- && cd S-Link- && python3 -m venv venv && . venv/bin/activate && pip install requests pyperclip && python S-Link.py
 -
 
 
