@@ -46,8 +46,8 @@ git clone https://github.com/JASEY507/S-Link- && cd S-Link- && python3 -m venv v
 
 
 
-İnstagram:@soytariomer.17
+İnstagram:https://www.instagram.com/soytariomer.17
 
 Youtube:https://www.youtube.com/@soytariomer.17
 
-Tiktok:soytariomer.17 
+Tiktok:https://tiktok.com/soytariomer.17
