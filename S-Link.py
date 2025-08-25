@@ -14,7 +14,7 @@ def auto_install(lib):
                 [sys.executable, "-m", "pip", "install", lib, "--break-system-packages"]
             )
         except subprocess.CalledProcessError:
-            print(f"⚠ {lib} yüklenemedi, tekrar dene!")
+            print(f" {lib} yüklenemedi, tekrar dene!")
             sys.exit(1)
 
 # Gerekli kütüphaneler
@@ -41,7 +41,7 @@ def make_tiny(url):
         if response.status_code == 200:
             return response.text
         else:
-            return " Başarısız!"
+            return " Başarısız"
     except Exception as e:
         return f" Hata: {e}"
 
@@ -49,7 +49,7 @@ def make_tiny(url):
 # Panoya kopyala
 def copy_to_clipboard(text):
     pyperclip.copy(text)
-    print(" Link  kopyalandı!")
+    print(" Link  kopyalandı")
 
 
 # Ana fonksiyon
